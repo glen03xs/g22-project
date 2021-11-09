@@ -16,26 +16,26 @@ export const Navbar = () => {
               <div className="main-menu-three__inner-upper clearfix">
 
                 <div className="main-menu-three__inner clearfix">
-                  <a href="#" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
+                  <a href="/" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
                   <ul className="main-menu__list">
                     <li className="current">
                       <a href="index.html">Home</a>
 
                     </li>
                     <li>
-                      <a href="#">Find Project</a>
+                      <a href="/">Find Project</a>
                     </li>
                     <li className="dropdown">
-                      <a href="#">Find Candidate</a>
+                      <a href="/">Find Candidate</a>
 
                     </li>
                     <li>
-                      <a href="#">Blog</a>
+                      <a href="/">Blog</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/">Contact</a></li>
                   </ul>
                 </div>
               </div>

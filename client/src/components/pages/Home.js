@@ -103,7 +103,7 @@ export const Home = () => {
                   <h2>Lorem ipsum dolor sit am adipi we help you ensure everyone.</h2>
                 </div>
                 <div className="become-volunteer__btn-box">
-                  <a href="#" className="become-volunteer__btn thm-btn">Learn More</a>
+                  <a href="/" className="become-volunteer__btn thm-btn">Learn More</a>
                 </div>
               </div>
             </div>
