@@ -1,0 +1,4 @@
+{
+	"mongoURI": "mongodb+srv://dbUserMain:u3wGki_SPg$HfV4@cluster0.jz3l7.mongodb.net/group22-app-db?retryWrites=true&w=majority",
+	"jwtSecret": "g22secret"
+}
