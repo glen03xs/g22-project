@@ -14,10 +14,11 @@ Besides being the one of the most popular, MIT License is optimized for develope
   
 ## User instructions
 
+### To run on localhost
 $ git clone https://github.com/glen03xs/g22-project.git
-$ cd group-22-capstone
+$ cd g22-project
 
 $ npm install
 $ npm run dev
 
-The application run on  [localhost:5000](http://localhost:6000/).
+The application run on  [localhost:6000](http://localhost:6000/).
