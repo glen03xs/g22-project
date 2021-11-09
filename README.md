@@ -1,29 +1,23 @@
-# Getting Started with Create React App
+# Application Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Name: Glen Nepomuceno 
 
-## Available Scripts
+This is a the initial setup of the Group 22 project. The project will use MERN Stack.
 
-In the project directory, you can run:
+## Why MIT licence?
+Besides being the one of the most popular, MIT License is optimized for developers and to the point.
 
-### `npm start`
+## Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Text Editor (Visual Studio Code)
+2. NodeJS
+  
+## User instructions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+$ git clone https://github.com/glen03xs/g22-project.git
+$ cd group-22-capstone
 
-### `npm test`
+$ npm install
+$ npm run dev
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
+The application run on  [localhost:5000](http://localhost:6000/).
