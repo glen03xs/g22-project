@@ -1031,18 +1031,27 @@ h6 {
 }
 
 .main-menu-three__btn {
-
+    display: flex;
 }
 
-.main-menu-three__profile {
-    
+.main-menu-three__btn a {
+    margin-left: 6px;
+}
+
+.main-menu-three__profile a {
+    border: none;
+}
+
+.main-menu-three__profile img {
+    max-width: 42px;
+    margin-right: 8px;
 }
 
 .main-menu__right-three {
     position: relative;
     float: right;
     padding-left: 0;
-    padding: 36.5px 0;
+    padding: 32.5px 0;
 }
 
 .main-menu__right-three:before {
