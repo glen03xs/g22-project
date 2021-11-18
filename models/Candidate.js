@@ -5,52 +5,53 @@ const CandidateSchema = mongoose.Schema({
 		type: mongoose.Schema.Types.ObjectId,
 		ref: 'users',
 	},
-	employeeNo: {
-		type: Number,
-		required: true,
-		unique: true,
-	},
-	name: {
+	firstName: {
 		type: String,
 		required: true,
 	},
-	position: {
+	lastName: {
+		type: String,
+		required: true,
+	},
+	cityTown: {
+		type: String,
+		required: true,
+	},
+	country: {
+		type: String,
+		required: true,
+	},
+	// timezone: {
+	// 	type: String,
+	// 	required: true,
+	// },
+	professionalTitle: {
+		type: String,
+		required: true,
+	},
+	education: {
 		type: String,
 	},
-	email: {
+	yearsOfExperience: {
+		type: String,
+		required: true,
+	},
+	linkedinProfile: {
 		type: String,
 	},
-	contactNumber: {
+	linkToPortfolio: {
 		type: String,
 	},
-	address: {
+	desiredRole: {
 		type: String,
 	},
-	gender: {
+	skills: {
 		type: String,
 	},
-	civilStatus: {
+	about: {
 		type: String,
-	},
-	dateOfBirth: {
-		type: Date,
-	},
-	placeOfBirth: {
-		type: Date,
-	},
-	dateHired: {
-		type: Date,
-	},
-	sssNumber: {
-		type: String,
-	},
-	philhealthNumber: {
-		type: String,
-	},
-	date: {
-		type: Date,
-		default: Date.now,
-	},
+	}
+
 });
 
 module.exports = mongoose.model('candidate', CandidateSchema);

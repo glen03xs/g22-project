@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
+import {Link} from 'react-router-dom';
 
 export const Home = () => {
   return (
@@ -10,7 +11,7 @@ export const Home = () => {
               <h2>Organization</h2>
               <h4>Projects</h4>
               <p>Do you have a project in mind but has limited budget? Lorem ipsum dolor sit am adipi we help you ensure everyone is in the right jobs sicing elit</p>
-              <a href="signup-org.html" className="btn">Sign Up</a>
+              <Link to="/signup-org" className="btn">Sign Up</Link>
             </div>
           </div>
           <div className="main-hero-area--right">

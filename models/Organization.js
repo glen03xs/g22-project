@@ -5,52 +5,47 @@ const OrganizationSchema = mongoose.Schema({
 		type: mongoose.Schema.Types.ObjectId,
 		ref: 'users',
 	},
-	employeeNo: {
-		type: Number,
-		required: true,
-		unique: true,
-	},
-	name: {
+	firstName: {
 		type: String,
 		required: true,
 	},
-	position: {
+	lastName: {
+		type: String,
+		required: true,
+	},
+	cityTown: {
+		type: String,
+		required: true,
+	},
+	country: {
+		type: String,
+		required: true,
+	},
+	// timezone: {
+	// 	type: String,
+	// 	required: true,
+	// },
+	industry: {
 		type: String,
 	},
-	email: {
+	yearsOfOperation: {
 		type: String,
 	},
-	contactNumber: {
+	linkedinProfile: {
 		type: String,
 	},
-	address: {
+	linkToPortfolio: {
 		type: String,
 	},
-	gender: {
+	organizationName: {
 		type: String,
 	},
-	civilStatus: {
+	organizationType: {
 		type: String,
 	},
-	dateOfBirth: {
-		type: Date,
-	},
-	placeOfBirth: {
-		type: Date,
-	},
-	dateHired: {
-		type: Date,
-	},
-	sssNumber: {
+	about: {
 		type: String,
-	},
-	philhealthNumber: {
-		type: String,
-	},
-	date: {
-		type: Date,
-		default: Date.now,
-	},
+	}
 });
 
 module.exports = mongoose.model('organization', OrganizationSchema);

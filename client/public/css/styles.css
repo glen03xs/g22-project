@@ -1026,7 +1026,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 60%;
     float: left;
 }
 
@@ -1038,8 +1038,13 @@ h6 {
     margin-left: 6px;
 }
 
-.main-menu-three__profile a {
-    border: none;
+.main-menu-three__profile .btn-profile {
+    border: transparent;
+    
+}
+
+.main-menu-three__profile .btn-sign-out {
+    margin-left: 8px;
 }
 
 .main-menu-three__profile img {
@@ -1853,6 +1858,25 @@ h6 {
 }
 .btn-sign {
     max-width: 114px;
+}
+
+
+
+.user-profile--wrap {
+    border-left: 1px solid #9d9d9d;
+    border-right: 1px solid #9d9d9d;
+    padding: 60px 0;
+}
+
+.user-profile--head {
+    padding: 0 174px;
+}
+
+.user-profile--body {
+    background-image: url(../img/profile-page-placeholder.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 710px;
 }
 
 .main-slider {
