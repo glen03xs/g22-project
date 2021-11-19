@@ -31,10 +31,10 @@ const OrganizationSchema = mongoose.Schema({
 	yearsOfOperation: {
 		type: String,
 	},
-	linkedinProfile: {
+	linkedinPage: {
 		type: String,
 	},
-	linkToPortfolio: {
+	linkToWebsite: {
 		type: String,
 	},
 	organizationName: {

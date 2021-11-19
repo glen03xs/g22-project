@@ -6,8 +6,6 @@ const UserSchema = mongoose.Schema({
 	},
 	username: {
 		type: String,
-		// required: true,
-		// unique: true
 	},
 	email: {
 		type: String,
@@ -18,21 +16,14 @@ const UserSchema = mongoose.Schema({
 		type: String,
 		required: true
 	},
-	firstName: {
-		type: String
-	},
-	lastName: {
-		type: String
-	},
+
 	organizationName: {
 		type: String,
 	},
 	organizationType: {
 		type: String,
 	},
-	professionalTitle: {
-		type: String,
-	},
+
 	date: {
 		type: Date,
 		default: Date.now

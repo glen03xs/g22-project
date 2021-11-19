@@ -14,7 +14,7 @@ app.use(express.json({ exteded: false }));
 app.use('/api/users', require('./routes/users'));
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/candidates', require('./routes/candidates'));
-app.use('/api/organization', require('./routes/organizations'));
+app.use('/api/organizations', require('./routes/organizations'));
 
 // Serve Static Assets
 // if (process.env.NODE_ENV === 'production') {
